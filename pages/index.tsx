@@ -81,7 +81,8 @@ export const getStaticProps: GetStaticProps<Props> = async()=>{
     projects,
     skills,
     socials,
-  }
+  },
+  revalidate:10,
  }
 }
 export default Home
